@@ -1,1 +1,1 @@
-Responsive Portfolio using Node and SASS
+Responsive Portfolio using Node and Sass
