@@ -27,8 +27,12 @@ h3 {
     font-size: 6rem;
   }
 
+  span{
+    font-family: "Dosis", sans-serif;
+  }
+
   &.sm-heading {
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
     padding: 0.2rem 1rem;
     background: lighten($primary-color, 2), 0.5;
   }
@@ -113,13 +117,11 @@ main {
     position: relative;
     margin-bottom: 10px;
     padding-left: 0px;
-    //margin-left: -39px;
   }
   .skills {
     padding-right: 10px;
   }
   li::before {
-    //margin: 0 5px 0 -15px;
     position: absolute;
     left: 0px;
   }
