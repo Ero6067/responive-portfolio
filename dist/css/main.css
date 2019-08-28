@@ -128,7 +128,7 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     padding: 0.2rem 1rem;
     background: #131a37, 0.5; }
 
@@ -141,7 +141,7 @@ header {
   z-index: 2;
   width: 100%; }
 
-.text-secondary {
+.text-secondary-color {
   color: #00c3ffa4; }
 
 main {
@@ -208,8 +208,17 @@ main {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
-  .projects button {
-    width: 100%; }
+  .projects .modal {
+    color: black; }
+  .projects .proj-btn {
+    width: 100%;
+    border-radius: 0px; }
+  .projects i {
+    padding-right: 5px; }
+  .projects a {
+    text-decoration: none; }
+  .projects .modal-body {
+    color: #333; }
   .projects img {
     width: 100%;
     border: 3px #fff solid; }
@@ -217,6 +226,8 @@ main {
       opacity: 0.5;
       border-color: #00c3ffa4;
       transition: all 0.5s ease-out; }
+  .projects .card img:hover {
+    opacity: 1; }
 
 .boxes {
   display: flex;
