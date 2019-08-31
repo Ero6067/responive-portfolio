@@ -1,7 +1,7 @@
 {
   "name": "modern-website",
   "version": "1.0.0",
-  "description": "Responisve Portfolio Website",
+  "description": "Kris Lafrance Portfolio",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
@@ -10,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.12.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ero6067/responsive-portfolio.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Ero6067/responsive-portfolio/issues"
+  },
+  "homepage": "https://github.com/Ero6067/responsive-portfolio#readme"
 }

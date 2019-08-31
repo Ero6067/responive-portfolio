@@ -148,7 +148,23 @@ main {
 	grid-gap: 0.7rem;
 	grid-template-columns: repeat(3, 1fr);
 	.modal {
-		color: black;
+		color: white;
+
+		.modal-bg {
+			background: #333;
+		}
+
+		.modal-header {
+			border-bottom: 0;
+		}
+		.close {
+			color: #fff;
+			opacity: 1;
+		}
+		.close:hover {
+			color: $secondary-color;
+			opacity: 1;
+		}
 	}
 	.proj-btn {
 		width: 100%;
@@ -159,9 +175,6 @@ main {
 	}
 	a {
 		text-decoration: none;
-	}
-	.modal-body {
-		color: #333;
 	}
 
 	img {
