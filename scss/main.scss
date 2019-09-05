@@ -11,7 +11,6 @@ body {
 	color: set-text-color($primary-color);
 	height: 100%;
 	margin: 0;
-	//font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	line-height: 1.5;
 }
 
@@ -147,13 +146,19 @@ main {
 	display: grid;
 	grid-gap: 0.7rem;
 	grid-template-columns: repeat(3, 1fr);
+
 	.modal {
 		color: white;
 
-		.modal-bg {
-			background: #333;
+		.card {
+			padding: 0px 25px;
 		}
-
+		.modal-bg {
+			background: rgba(1, 1, 1, 0.8);
+		}
+		.modal-footer {
+			display: none;
+		}
 		.modal-header {
 			border-bottom: 0;
 		}
@@ -166,6 +171,7 @@ main {
 			opacity: 1;
 		}
 	}
+
 	.proj-btn {
 		width: 100%;
 		border-radius: 0px;
@@ -179,7 +185,7 @@ main {
 
 	img {
 		width: 100%;
-		border: 3px #fff solid;
+		border: 1px #fff solid;
 
 		&:hover {
 			opacity: 0.5;
