@@ -98,11 +98,11 @@ body {
   margin: 0;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.png);
+    background: url(../img/tokyo-arcade.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -204,10 +204,21 @@ main {
     padding: 0.5rem;
     border-bottom: #00c3ffa4 5px solid; }
 
+#home .info {
+  border: solid #fff; }
+
+.filter {
+  background-color: rgba(1, 1, 1, 0.8);
+  width: 100%;
+  margin: auto;
+  padding-bottom: 25px; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
+  .projects .bl-text {
+    color: #000000; }
   .projects .modal {
     color: white; }
     .projects .modal .card {

@@ -140,6 +140,16 @@ main {
 	}
 }
 
+#home .info {
+	border: solid #fff;
+}
+.filter {
+	background-color: rgba(1, 1, 1, 0.8);
+	width: 100%;
+	margin: auto;
+	padding-bottom: 25px;
+}
+
 // Work/Projects
 
 .projects {
@@ -147,6 +157,9 @@ main {
 	grid-gap: 0.7rem;
 	grid-template-columns: repeat(3, 1fr);
 
+	.bl-text {
+		color: #000000;
+	}
 	.modal {
 		color: white;
 
@@ -193,6 +206,7 @@ main {
 			@include easeOut;
 		}
 	}
+
 	.card img:hover {
 		opacity: 1;
 	}
