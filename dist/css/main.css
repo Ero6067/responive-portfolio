@@ -35,11 +35,11 @@
     float: left;
     width: 50%;
     height: 100vh;
-    overflow: hidden; }
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8); }
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: rgba(10, 13, 28, 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
@@ -159,6 +159,10 @@ main {
         color: #00c3ffa4; }
   main#home {
     overflow: hidden; }
+
+#home {
+  max-width: none;
+  padding: 0; }
 
 .about-info {
   display: grid;
