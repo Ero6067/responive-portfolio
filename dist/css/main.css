@@ -95,6 +95,9 @@ html {
   box-sizing: border-box;
   font-family: "Lato", sans-serif; }
 
+button:focus {
+  outline: none; }
+
 body {
   background: #10162f;
   color: #fff;
