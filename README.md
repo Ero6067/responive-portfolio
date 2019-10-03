@@ -2,7 +2,7 @@
 
 Written By Kris Lafrance
 
-Uses HTML5, CSS3, SASS, fontawesome, Node.js
+Uses HTML5, CSS3, SASS, fontawesome
 
 ## Features
 
