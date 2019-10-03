@@ -101,13 +101,13 @@ button:focus {
 body {
   background: #10162f;
   color: #fff;
-  height: 100%;
   margin: 0;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/tokyo-arcade.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    height: 100%; }
     body#bg-img:after {
       content: "";
       position: absolute;
